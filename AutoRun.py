@@ -1,6 +1,4 @@
-import keyboard
-
-from setuptools import setup
+import keyboard, time
 
 
 class Runner:
@@ -18,6 +16,7 @@ class Runner:
         if self.h_pressed == 1:
             if self.autorun:
                 self.autorun = False
+                keyboard.release('w')
             else:
                 self.autorun = True
 

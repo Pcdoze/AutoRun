@@ -1,8 +1,7 @@
-from tkinter import mainloop
 from AutoRun import Runner
 import keyboard, time
 
-FRAMERATE = 30
+FRAMERATE = 122
 
 def main_loop():
     loop = True
@@ -20,4 +19,5 @@ def main_loop():
 
         if keyboard.is_pressed('q') or keyboard.is_pressed('Q'):
             loop = False
+
 main_loop()
