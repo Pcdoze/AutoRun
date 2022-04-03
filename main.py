@@ -14,7 +14,6 @@ def main_loop():
 
         #________________
 
-        print(runner.h_pressed)
         runner.run()
         
         #________________
